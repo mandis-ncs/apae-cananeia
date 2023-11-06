@@ -1,0 +1,31 @@
+.logo-nav{
+    height: 50px;
+    width: auto;
+    padding-right: 5px;
+}
+
+.icon-heart{
+    height: 15px;
+    width: auto;
+    padding-right: 4px;
+}
+
+.apae-illustration{
+    margin-right: 80px;
+    margin-left: 20px;
+}
+
+.apae-illustration img {
+    height: auto;
+    width: 50vw;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-30{
+    margin-bottom: 30px !important;
+}
