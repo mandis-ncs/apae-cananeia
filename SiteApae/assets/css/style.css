@@ -91,6 +91,12 @@
     max-width: 100%;
 }
 
+.libras{
+    border-radius: 15px;
+    height: 60px;
+    width: auto;
+    padding-bottom: 5px;
+}
 
 /*Global*/
 

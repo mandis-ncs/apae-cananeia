@@ -2479,6 +2479,14 @@ section {
   margin-top: 20px;
 }
 
+.blog-details .content span{
+  border-radius: 100px;
+  background-color: var(--nav-dropdown-hover-color);
+  color: #fff;
+  padding-block: 5px;
+  padding-inline: 10px;
+}
+
 .blog-details .content h3 {
   font-size: 22px;
   margin-top: 30px;
