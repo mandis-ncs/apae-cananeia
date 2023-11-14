@@ -86,6 +86,12 @@
   }
 
 
+/*blog details - tutorial pdf*/
+.content .tutorial-pdf img{
+    max-width: 100%;
+}
+
+
 /*Global*/
 
 .center{
