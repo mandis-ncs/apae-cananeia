@@ -1174,6 +1174,12 @@ section {
   justify-content: center;
 }
 
+/*ADICIONADO*/
+.features .features-item .feature-item-div{
+  padding-inline: 80px;
+}
+
+
 .features .features-item+.features-item {
   margin-top: 100px;
 }
@@ -1234,6 +1240,7 @@ section {
 @media (max-width: 640px) {
   .features .features-item .features-img-bg {
     min-height: 300px;
+    min-width: auto;
   }
 }
 
@@ -1243,8 +1250,6 @@ section {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 
 .features .features-item .image-stack {
@@ -1940,6 +1945,7 @@ section {
 .contact .info-item {
   background: rgba(var(--default-color-rgb), 0.03);
   padding: 30px;
+  border-radius: 20px;
 }
 
 .contact .info-item i {

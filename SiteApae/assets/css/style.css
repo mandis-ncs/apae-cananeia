@@ -57,9 +57,15 @@
 
 .apae-illustration img {
     height: auto;
-    width: 50vw;
+    width: 100vw;
 }
 
+@media (min-width: 770px) {
+    .apae-illustration img {
+        height: auto;
+        width: 100%;
+    }
+}
 
 /*Partners*/
 .partner-btn {
