@@ -30,6 +30,7 @@
   --secondary-color-rgb: 50, 53, 58;
   --contrast-color: #ffffff;
   --contrast-color-rgb: 255, 255, 255;
+  --visited-link-color: #c08af9;
 }
 
 /* Nav Menu Colors */
@@ -2477,6 +2478,16 @@ section {
 
 .blog-details .content {
   margin-top: 20px;
+}
+
+.blog-details .content a{
+  color: var(--default-color);
+  text-decoration: underline var(--nav-dropdown-hover-color);
+}
+
+.blog-details .content a:visited {
+  color: var(--visited-link-color);
+  text-decoration: underline var(--visited-link-color);
 }
 
 .blog-details .content span{
