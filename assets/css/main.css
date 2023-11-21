@@ -2485,6 +2485,7 @@ section {
   text-decoration: underline var(--nav-dropdown-hover-color);
 }
 
+
 /*.blog-details .content a:visited {
   color: var(--visited-link-color);
   text-decoration: underline var(--visited-link-color);
